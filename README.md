@@ -1,4 +1,5 @@
 # selenium security options - english
+```
 options.add_argument("--force-dark-mode") # Enable browser dark mode
 options.add_argument('--sandbox') # Restrict access to system resources during browser execution to enhance security.
 options.add_argument('--disable-blink-features=AutomationControlled') # Disable feature detection for browser automation.
@@ -14,8 +15,9 @@ options.add_argument("--disable-audio") # Disable microphone.
 options.add_argument('--incognito') # Enable browser incognito mode.
 options.add_argument("--disable-geolocation") # Disable geolocation.
 options.add_argument("--disable-javascript") # Disable JavaScript execution.
-
+```
 # 보안 기능 옵션 - korean
+```
 options.add_experimental_option("excludeSwitches", ["enable-logging"])# 브라우저를 실행할 때 로깅 기능을 끄기
 options.add_argument("--force-dark-mode")# 브라우저 다크 모드 활성화
 options.add_argument('--sandbox')# 브라우저를 실행하는 동안 시스템 리소스에 대한 액세스를 제한하여 보안을 강화하는 역할을 합니다.
@@ -32,3 +34,4 @@ options.add_argument("--disable-audio") # 마이크 비활성화
 options.add_argument('--incognito')# 브라우저 시크릿 탭 모드
 options.add_argument("--disable-geolocation") # 위치정보 비활성화
 options.add_argument("--disable-javascript") # 자바스크립트 실행 비활성화
+```
